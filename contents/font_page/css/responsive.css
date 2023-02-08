@@ -1,0 +1,17 @@
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 575px) and (orientation:portrait) {
+    .home-center  h1{
+        font-size: 12vw;
+    }
+    .home-btn .btn-shop{
+        margin-top: 10px;
+    }
+      .home-btn .btn-menu{
+        margin-top: 10px;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and (orientation:portrait) {
+    .home-center  h1{
+        font-size: 14vw;
+    }
+}

@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ecf0f3;
+}
+.login_form{
+    width: 500px;
+    height: 530px;
+    padding-top: 30px;
+    background-color: rgba(87, 124, 251, 0.02);
+    border-radius: 30px;
+    box-shadow:  -5px -5px 5px #ffffff,
+    3px 3px 15px #000000;
+}
+.logo{
+    background: url("../img/biye__1_-removebg-preview.png");
+    width: 125px;
+    height: 123px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow:  -3px -3px 5px #ffffff,
+    3px 3px 7px #000000;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    letter-spacing: 0.4px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.sub_title{
+    text-align: center;
+    padding-top: 7px;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.fields{
+    width: 80%;
+    padding: 40px 5px 5px 5px;
+}
+.fields svg{
+    height: 20px;
+    margin: 10px 15px -3px 35px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 30px 20px 35px;
+    margin-left: 30px;
+
+}
+.email_input, .pass_input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: -4px -4px 8px #ffffff,
+    4px 4px 8px #cbced1;
+}
+.email_input:active{
+    box-shadow: 4px 4px 8px #ffffff,
+    -4px -4px 8px #cbced1 ;
+}
+.pass_input:active{
+    box-shadow: 4px 4px 8px #ffffff,
+                 -4px -4px 8px #cbced1 ;
+}
+.btn_signUp{
+    margin-left: 40px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #63e06b;
+    color: white;
+    border-radius: 20px;
+    box-shadow:  -3px -3px 5px #ffffff,
+    3px 3px 8px #000000;
+    transition: 0.4s linear;
+}
+.btn_signUp:hover{
+    background-color: #368B68;
+    transition: 0.4s linear;
+}
+.btn_signUp:active{
+    background-color: rgba(5, 17, 12, 0.91);
+    transition: 0.3s linear;
+    border: none;
+    outline: none;
+
+}
+.link{
+    padding-top: 15px;
+    text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #aaa;
+}
